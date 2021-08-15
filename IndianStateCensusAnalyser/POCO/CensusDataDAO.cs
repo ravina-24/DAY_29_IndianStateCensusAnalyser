@@ -10,7 +10,6 @@ namespace IndianStateCensusAnalyser.POCO
         public long population;
         public long area;
         public long density;
-
         public CensusDataDAO(string state, string population, string area, string density)
         {
             this.state = state;
@@ -18,7 +17,6 @@ namespace IndianStateCensusAnalyser.POCO
             this.area = Convert.ToUInt32(area);
             this.density = Convert.ToUInt32(density);
         }
-
 
     }
 
