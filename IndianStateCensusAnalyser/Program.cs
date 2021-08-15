@@ -4,9 +4,10 @@ namespace IndianStateCensusAnalyser
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to indian state census analyser");
         }
     }
 }
