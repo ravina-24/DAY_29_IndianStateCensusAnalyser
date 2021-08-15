@@ -18,6 +18,7 @@ namespace IndianStateCensusAnalyser
                 default:
                     throw new CensusAnalyserException("No Such Country", CensusAnalyserException.ExceptionType.NO_SUCH_COUNTRY);
             }
+
         }
     }
 }
